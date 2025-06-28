@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Home
-permalink: /
+permalink: /home/
 ---
+
 
 <style>
 .banner-img {
