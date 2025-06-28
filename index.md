@@ -61,7 +61,8 @@ permalink: /
 </style>
 
 <!-- 🔹 Banner -->
-<img class="banner-img" src="https://via.placeholder.com/1000x300?text=The+Makers+Room" alt="Banner">
+<img class="banner-img" src="/assets/images/banner.png" alt="The MakersRoom Banner">
+
 
 <!-- 🔹 Latest Blogs -->
 <h2 class="section-title">📝 Latest Blog Posts</h2>
