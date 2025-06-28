@@ -14,7 +14,11 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 #
 # Flags below are optional
 #
-
+nav:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /projects/
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
@@ -77,11 +81,7 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 # Site navigation links
-nav:
-  - title: Home
-    url: /
-  - title: Projects
-    url: /projects/
+
 
 # Exclude these files from your production _site
 exclude:
