@@ -14,11 +14,7 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 #
 # Flags below are optional
 #
-nav:
-  - title: Home
-    url: /
-  - title: Projects
-    url: /projects/
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
@@ -90,3 +86,9 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+nav:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /projects/
