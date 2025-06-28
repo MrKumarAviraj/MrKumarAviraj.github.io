@@ -61,7 +61,7 @@ permalink: /
 </style>
 
 <!-- 🔹 Banner -->
-<img class="banner-img" src="/assets/images/banner.png" alt="The MakersRoom Banner">
+<img class="banner-img" src="/images/banner.png" alt="The MakersRoom Banner">
 
 
 <!-- 🔹 Latest Blogs -->
