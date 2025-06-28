@@ -26,7 +26,10 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
+          <nav style="display: flex; align-items: center; gap: 10px;">
+            <a href="{{ site.baseurl }}/">
+            <img src="{{ site.baseurl }}/assets/img/logo.png" alt="Site Logo" style="height: 40px; vertical-align: middle;">
+            </a>
             <a href="{{ site.baseurl }}/">Home</a>
             <a href="{{ site.baseurl }}/projects/">Projects</a>            
             <a href="{{ site.baseurl }}/blog/">Blog</a>
