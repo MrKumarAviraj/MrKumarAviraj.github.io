@@ -2,7 +2,7 @@
 layout: post
 title: "Smart Light Control with ESP32"
 description: "A DIY IoT project using ESP32 to control lights based on motion."
-date: 2025-06-29
+date: 2025-06-28
 tags: [ESP32, IoT, Arduino, Smart Home]
 ---
 
