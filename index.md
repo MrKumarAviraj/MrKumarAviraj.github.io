@@ -8,8 +8,8 @@ permalink: /
 <style>
 .banner-img {
   width: 100%;
-  border-radius: 12px;
-  margin-bottom: 30px;
+  border-radius: 6px;
+  margin-bottom: 10px;
 }
 
 .section-title {
