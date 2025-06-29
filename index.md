@@ -82,7 +82,7 @@ permalink: /
   </a>
 
   <a class="project-card" href="{{ site.baseurl }}/my-first-blog/">
-    <img src="/images/storybot-thumb.png" alt="My First Blog">
+    <img src="/images/smartlight-banner.jpg" alt="My First Blog">
     <h3>AI Quiz Bot for Students</h3>
   </a>
 
