@@ -10,7 +10,7 @@ permalink: /projects/
 
   <div class="project-card">
     <a href="{{ site.baseurl }}/blog/2025/06/27/smart-light-project.html">
-      <img src="/assets/img/smart-light-thumb.jpg" alt="Smart Light Project">
+      <img src="/images/smart-light-thumb.jpg" alt="Smart Light Project">
       <h3>Smart Light with ESP32</h3>
       <p>Motion-sensor based light automation using ESP32 and PIR sensor.</p>
     </a>
@@ -18,7 +18,7 @@ permalink: /projects/
 
   <div class="project-card">
     <a href="{{ site.baseurl }}/blog/2025/06/10/ai-storybot.html">
-      <img src="/assets/img/storybot-thumb.jpg" alt="AI StoryBot">
+      <img src="/images/storybot-thumb.jpg" alt="AI StoryBot">
       <h3>AI StoryBot</h3>
       <p>An interactive storytelling robot powered by GPT and Arduino.</p>
     </a>
