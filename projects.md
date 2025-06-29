@@ -4,27 +4,19 @@ title: Projects
 permalink: /projects/
 ---
 
-<h2>🚀 My Featured Projects</h2>
+<h2>🚀 My Projects</h2>
 
 <div class="projects-grid">
 
-  <div class="project-card">
-    <a href="{{ site.baseurl }}/my-first-blog/">
-      <img src="/images/smart-light-thumb.jpg" alt="My First Blog">
-      <h3>My First Blog</h3>
-      <p>Motion-sensor based light automation using ESP32 and PIR sensor.</p>
-    </a>
-  </div>
-
-  <div class="project-card">
-    <a href="{{ site.baseurl }}/smart-light-project/">
-      <img src="/images/storybot-thumb.png" alt="AI StoryBot">
-      <h3>Smart Light Project</h3>
-      <p>Smart Light Project</p>
-    </a>
-  </div>
-
-  <!-- 🧱 Add more project-card blocks below -->
+{% assign project_posts = site.posts | where_exp:"post", "post.tags contains 'Project'" %}
+{% for post in project_posts %}
+  <a class="project-card" href="{{ post.url }}">
+    <img src="{{ post.image | default: '/images/default-thumb.jpg' }}" alt="{{ post.title }}">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.description | default: post.excerpt }}</p>
+  </a>
+{% endfor %}
 
 </div>
+
 
