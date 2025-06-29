@@ -4,56 +4,27 @@ title: Projects
 permalink: /projects/
 ---
 
-<style>
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
+<h2>🚀 My Featured Projects</h2>
 
-.project-card {
-  width: 45%;
-  border: 1px solid #ccc;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-  background: #fff;
-  transition: transform 0.2s ease;
-}
+<div class="projects-grid">
 
-.project-card:hover {
-  transform: scale(1.02);
-}
+  <div class="project-card">
+    <a href="{{ site.baseurl }}/blog/2025/06/27/smart-light-project.html">
+      <img src="/assets/img/smart-light-thumb.jpg" alt="Smart Light Project">
+      <h3>Smart Light with ESP32</h3>
+      <p>Motion-sensor based light automation using ESP32 and PIR sensor.</p>
+    </a>
+  </div>
 
-.project-card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
+  <div class="project-card">
+    <a href="{{ site.baseurl }}/blog/2025/06/10/ai-storybot.html">
+      <img src="/assets/img/storybot-thumb.jpg" alt="AI StoryBot">
+      <h3>AI StoryBot</h3>
+      <p>An interactive storytelling robot powered by GPT and Arduino.</p>
+    </a>
+  </div>
 
-.project-card h3 {
-  margin: 15px 0;
-  padding: 0 10px;
-}
-</style>
-
-<div class="project-grid">
-
-  <a class="project-card" href="/project1-details">
-    <img src="https://via.placeholder.com/400x180?text=Project+1" alt="Project 1">
-    <h3>Smart Light Control with ESP32</h3>
-  </a>
-
-  <a class="project-card" href="/project2-details">
-    <img src="https://via.placeholder.com/400x180?text=Project+2" alt="Project 2">
-    <h3>AI Quiz Bot for Students</h3>
-  </a>
-
-  <!-- Add more projects below by duplicating the block above -->
+  <!-- 🧱 Add more project-card blocks below -->
 
 </div>
 
