@@ -76,14 +76,14 @@ permalink: /
 <h2 class="section-title">🛠️ Featured Projects</h2>
 <div class="project-grid">
 
-  <a class="project-card" href="{{ site.baseurl }}/smart-light-project/">
-    <img src="/images/smartlight-thumb.jpg" alt="Smart Light Control with ESP32">
-    <h3>Smart Light Control with ESP32</h3>
+  <a class="project-card" href="{{ site.baseurl }}/my-first-blog/">
+    <img src="/images/smartlight-thumb.jpg" alt="My First Blog">
+    <h3>My First Blog</h3>
   </a>
 
-  <a class="project-card" href="{{ site.baseurl }}/my-first-blog/">
-    <img src="/images/smartlight-banner.jpg" alt="My First Blog">
-    <h3>AI Quiz Bot for Students</h3>
+  <a class="project-card" href="{{ site.baseurl }}/smart-light-project/">
+    <img src="/images/smart-light-thumb.jpg" alt="Smart Light Project">
+    <h3>Smart Light Project</h3>
   </a>
 
 </div>
