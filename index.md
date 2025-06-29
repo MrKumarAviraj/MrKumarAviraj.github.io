@@ -87,11 +87,3 @@ permalink: /
 
 </div>
 
-
-
-  <a class="project-card" href="{{ site.baseurl }}/smart-light-project/">
-    <img src="/images/smart-light-thumb.jpg" alt="Smart Light Project">
-    <h3>Smart Light Project</h3>
-  </a>
-
-</div>
