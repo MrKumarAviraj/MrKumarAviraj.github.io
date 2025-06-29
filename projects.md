@@ -9,9 +9,9 @@ permalink: /projects/
 <div class="projects-grid">
 
   <div class="project-card">
-    <a href="{{ site.baseurl }}/blog/2025/06/27/smart-light-project.html">
-      <img src="/images/smart-light-thumb.jpg" alt="Smart Light Project">
-      <h3>Smart Light with ESP32</h3>
+    <a href="{{ site.baseurl }}/blog/2025-06-27-my-first-blog.html">
+      <img src="/images/smart-light-thumb.jpg" alt="My First Blog">
+      <h3>My First Blog</h3>
       <p>Motion-sensor based light automation using ESP32 and PIR sensor.</p>
     </a>
   </div>
