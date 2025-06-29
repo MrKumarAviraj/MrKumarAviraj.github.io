@@ -72,14 +72,21 @@ permalink: /
   {% endfor %}
 </ul>
 
-<!-- 🔹 Latest Projects -->
+<!-- 🔹 Featured Projects -->
 <h2 class="section-title">🛠️ Featured Projects</h2>
+
 <div class="project-grid">
 
-  <a class="project-card" href="{{ site.baseurl }}/my-first-blog/">
-  <img src="{{ site.baseurl }}/images/smart-light-thumb.jpg" alt="My First Blog">
-  <h3>My First Blog</h3>
-</a>
+{% assign latest_projects = site.posts | where_exp:"post", "post.tags contains 'Project'" | slice: 0, 3 %}
+{% for post in latest_projects %}
+  <a class="project-card" href="{{ post.url }}">
+    <img src="{{ post.image | default: '/images/default-thumb.jpg' }}" alt="{{ post.title }}">
+    <h3>{{ post.title }}</h3>
+  </a>
+{% endfor %}
+
+</div>
+
 
 
   <a class="project-card" href="{{ site.baseurl }}/smart-light-project/">
