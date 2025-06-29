@@ -3,6 +3,9 @@ layout: post
 title:  "My First Blog"
 date:   2025-06-27 10:00:00 +0400
 categories: [Introduction, Projects]
+tags: [Project, ESP32, AI]
+image: /images/smart-light-thumb.jpg
+description: "My very first blog!!!."
 ---
 
 🚀 **Welcome to my blog!**
