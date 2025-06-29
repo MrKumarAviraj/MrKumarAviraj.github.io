@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My First Blog Post"
+title:  "My First Blog"
 date:   2025-06-27 10:00:00 +0400
 categories: [Introduction, Projects]
 ---
