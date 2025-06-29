@@ -77,7 +77,7 @@ permalink: /
 <div class="project-grid">
 
   <a class="project-card" href="{{ site.baseurl }}/my-first-blog/">
-    <img src="/images/smartlight-thumb.jpg" alt="My First Blog">
+    <img src="/images/smart-light-thumb.jpg" alt="My First Blog">
     <h3>My First Blog</h3>
   </a>
 
