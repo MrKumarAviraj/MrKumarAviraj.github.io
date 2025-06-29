@@ -6,7 +6,7 @@ permalink: /projects/
 
 <h2>🚀 My Projects</h2>
 
-<div class="projects-grid">
+<div class="project-grid">
 
 {% assign project_posts = site.posts | where_exp:"post", "post.tags contains 'Project'" %}
 {% for post in project_posts %}
@@ -18,5 +18,6 @@ permalink: /projects/
 {% endfor %}
 
 </div>
+
 
 
