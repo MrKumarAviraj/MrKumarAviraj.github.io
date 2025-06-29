@@ -17,10 +17,10 @@ permalink: /projects/
   </div>
 
   <div class="project-card">
-    <a href="{{ site.baseurl }}/blog/2025/06/10/ai-storybot.html">
+    <a href="{{ site.baseurl }}/blog/2025-06-28-smart-light-project.md.html">
       <img src="/images/storybot-thumb.png" alt="AI StoryBot">
       <h3>AI StoryBot</h3>
-      <p>An interactive storytelling robot powered by GPT and Arduino.</p>
+      <p>Smart Light Project</p>
     </a>
   </div>
 
