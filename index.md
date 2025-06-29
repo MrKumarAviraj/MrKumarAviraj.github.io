@@ -76,13 +76,13 @@ permalink: /
 <h2 class="section-title">🛠️ Featured Projects</h2>
 <div class="project-grid">
 
-  <a class="project-card" href="/project1-details">
-    <img src="https://via.placeholder.com/400x180?text=Project+1" alt="Project 1">
+  <a class="project-card" href="{{ site.baseurl }}/smart-light-project/">
+    <img src="/images/smartlight-thumb.jpg" alt="Smart Light Control with ESP32">
     <h3>Smart Light Control with ESP32</h3>
   </a>
 
-  <a class="project-card" href="/project2-details">
-    <img src="https://via.placeholder.com/400x180?text=Project+2" alt="Project 2">
+  <a class="project-card" href="{{ site.baseurl }}/my-first-blog/">
+    <img src="/images/storybot-thumb.png" alt="My First Blog">
     <h3>AI Quiz Bot for Students</h3>
   </a>
 
