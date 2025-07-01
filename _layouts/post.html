@@ -12,7 +12,19 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
+<!-- 👍 Like Button -->
+<div style="margin-top: 30px;">
+  <span class="likebtn-wrapper" data-identifier="{{ page.title }}"></span>
+</div>
 
+<script>
+(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;
+var a=d.createElement(e),m=d.getElementsByTagName(e)[0];
+a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a,m)
+})(document,"script","//w.likebtn.com/js/w/widget.js");
+</script>
+
+  
  <!-- 💬 Utterances Comment Box -->
 <section id="utterances-comments" style="margin-top: 40px;">
   <script src="https://utteranc.es/client.js"
