@@ -334,3 +334,18 @@ footer {
   color: #444;
 }
 
+.tag-cloud a {
+  background: #e0f7ff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #0c3aa2;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.tag-cloud a:hover {
+  background: #c4ebff;
+}
+
+
