@@ -3,9 +3,10 @@ layout: post
 title: "Smart Light Control with ESP32"
 description: "A DIY IoT project using ESP32 to control lights based on motion."
 date: 2025-06-28
-tags: [ESP32, IoT, Arduino, Smart Home, Project]
+tags: [ESP32, IoT, Arduino, Smart Home]
 image: /images/smartlight-banner.jpg
 description: "Smart light project using IoT."
+category: Projects
 ---
 
 <img src="/images/smartlight-banner.jpg" alt="Smart Light Banner" style="width:100%; border-radius: 12px; margin-bottom: 20px;">
