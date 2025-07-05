@@ -6,6 +6,7 @@ categories: [Introduction, Projects]
 tags: [Project, ESP32, AI]
 image: /images/smart-light-thumb.jpg
 description: "My very first blog!!!."
+category: Tech News
 ---
 
 🚀 **Welcome to my blog!**
