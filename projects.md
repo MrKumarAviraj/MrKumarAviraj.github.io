@@ -9,7 +9,7 @@ permalink: /projects/
 <!-- 🔖 Project Tag Filter -->
 <h3>🏷️ Browse by Tag</h3>
 <ul class="tag-cloud">
-  {% assign all_project_posts = site.posts | where_exp:"post", "post.tags contains 'Project'" %}
+  {% assign all_project_posts = site.posts | where_exp:"post", "post.tags contains 'project'" %}
   {% assign all_tags = all_project_posts | map: 'tags' | uniq | join: ',' | split: ',' | uniq %}
   {% for tag in all_tags %}
     <li style="display:inline-block; margin: 4px 8px;">
