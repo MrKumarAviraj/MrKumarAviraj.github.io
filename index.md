@@ -77,7 +77,7 @@ permalink: /
 
 <div class="project-grid">
 
-{% assign latest_projects = site.posts | where_exp:"post", "post.tags contains 'Project'" | slice: 0, 3 %}
+{% assign latest_projects = site.posts | where_exp:"post", "post.tags contains 'project'" | slice: 0, 3 %}
 {% for post in latest_projects %}
   <a class="project-card" href="{{ post.url }}">
     <img src="{{ post.image | default: '/images/default-thumb.jpg' }}" alt="{{ post.title }}">
