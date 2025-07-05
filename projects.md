@@ -22,7 +22,8 @@ permalink: /projects/
 
 <!-- 📦 Project Cards -->
 <div class="project-grid">
-  {% for post in all_project_posts %}
+  {% assign project_posts = site.posts | where: "category", "Projects" %}
+  {% for post in project_posts %}
     <a class="project-card" href="{{ post.url }}">
       <img src="{{ post.image }}" alt="{{ post.title }}">
       <h3>{{ post.title }}</h3>
