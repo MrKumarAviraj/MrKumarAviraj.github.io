@@ -317,8 +317,13 @@ footer {
   width: 100%;
   height: auto;
   display: block;
+  object-fit: contain;
+  max-height: 200px; /* Adjust as needed */
+  background: #fff;
   border-bottom: 1px solid #ddd;
+  padding: 10px;
 }
+
 
 .project-card h3 {
   margin: 12px;
