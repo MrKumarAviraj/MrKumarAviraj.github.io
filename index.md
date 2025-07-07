@@ -48,16 +48,6 @@ permalink: /
   transform: scale(1.02);
 }
 
-.project-card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.project-card h3 {
-  margin: 15px 0;
-  padding: 0 10px;
-}
 </style>
 
 <!-- 🔹 Banner -->
