@@ -1,12 +1,12 @@
 #
 # This file contains configuration flags to customize your site
 #
-
+title: "The Makers Room"
 # Name of your site (displayed in the header)
-name: TheMakersRoom
+name: "The Makers Room"
 
 # Short bio or description (displayed in the header)
-description: A curious space where I explore AI, electronics, and creative tinkering projects.
+description: "DIY Projects, Electronics, Robotics, Coding & AI learning for kids and makers."
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 # avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
