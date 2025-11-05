@@ -53,6 +53,10 @@ permalink: /
 <!-- 🔹 Banner -->
 <img class="banner-img" src="/images/banner.png" alt="The MakersRoom Banner">
 
+### Welcome to The Makers Room 👋
+
+**The Makers Room** is a learning space for students and hobbyists to explore  
+**Arduino, ESP32, Robotics, AI, and coding** through hands-on projects, tutorials and maker-friendly experiments.
 
 <!-- 🔹 Latest Blogs -->
 <h2 class="section-title">📝 Latest Blog Posts</h2>
